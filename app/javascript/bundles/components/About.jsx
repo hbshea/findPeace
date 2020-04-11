@@ -1,13 +1,19 @@
-import React from "react"
+import React from "react";
 // import "../../../assets/stylesheets/about.scss"
-import SheaHannah from "../../../assets/images/SheaHannah.jpg"
-import StRemySonia from "../../../assets/images/StRemySonia.jpg"
-import KeranoraKrisi from "../../../assets/images/KeranoraKrisi.jpg"
-import FavardTristan from "../../../assets/images/FavardTristan.jpg"
-import github from "../../../assets/images/github.jpeg"
-import linkedin from "../../../assets/images/linkedin.png"
-import about from "../../../assets/images/about-us-banner-plain.png"
+
 const About = () => {
+  const SheaHannah = "https://findpeacebucket.s3.amazonaws.com/SheaHannah.jpg";
+  const StRemySonia =
+    "https://findpeacebucket.s3.amazonaws.com/StRemySonia.jpg";
+  const KeranoraKrisi =
+    "https://findpeacebucket.s3.amazonaws.com/KeranoraKrisi.jpg";
+  const FavardTristan =
+    "https://findpeacebucket.s3.amazonaws.com/FavardTristan.jpg";
+  const github = "https://findpeacebucket.s3.amazonaws.com/github.jpeg";
+  const linkedin = "https://findpeacebucket.s3.amazonaws.com/linkedin.png";
+  const about =
+    "https://findpeacebucket.s3.amazonaws.com/about-us-banner-plain.png";
+  console.log(SheaHannah);
   return (
     <>
       {/* <div className="banner"></div> */}
@@ -82,6 +88,6 @@ const About = () => {
         </div>
       </div>
     </>
-  )
-}
-export default () => <About />
+  );
+};
+export default () => <About />;
